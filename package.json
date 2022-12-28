@@ -1,0 +1,22 @@
+{
+  "name": "imgur-album-owner",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "imgur": "^2.2.0",
+    "tslib": "^2.4.1"
+  }
+}
