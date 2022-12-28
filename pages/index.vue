@@ -2,14 +2,14 @@
 <template>
   <NuxtLayout>
     <form @submit.prevent="uploadHandler">
-      <div class=" relative group">
+      <div class="relative group">
         <label for="image" :class="{ 'opacity-70': dragover }"
           class="block bg-stone-300 transition-opacity py-7 text-center rounded-xl shadow-xl group-hover:opacity-70 mb-10">上傳區</label>
         <input @change="fileHandler" required type="file" @dragover="dragover = true" @dragleave="dragover = false"
           @drop="dragover = false" class="top-0 cursor-pointer left-0 opacity-0 absolute w-full h-full" id="image"
           accept="image/png, image/jpg, image/jpeg">
       </div>
-      <div v-if="file">
+      <div class="mb-6" v-if="file">
         <p>name: {{ file.name }}</p>
         <p>
           <button :disabled="imageLoading" class=" bg-stone-800 text-white rounded-2xl p-2 hover:opacity-80 disabled:bg-stone-400 transition" type="submit">上傳圖片</button>

@@ -1,6 +1,12 @@
 {
   "name": "imgur-album-owner",
-  "private": true,
+  "author": {
+    "name": "Nosegates",
+    "email": "nosegates@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/connectshark/imgur-album-owner"
+  },
   "engines": {
     "node": ">=18"
   },
