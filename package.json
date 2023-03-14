@@ -18,11 +18,11 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "3.0.0"
+    "nuxt": "3.2.2"
   },
   "dependencies": {
-    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@nuxtjs/tailwindcss": "^6.4.1",
     "imgur": "^2.2.0",
-    "tslib": "^2.4.1"
+    "tslib": "^2.5.0"
   }
 }
